@@ -1,0 +1,869 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "f5pm-8x36",
+      "name" : "Washington State Counties",
+      "assetType" : "dataset",
+      "attribution" : "Office of Financial Management",
+      "averageRating" : 0,
+      "category" : "demographics",
+      "createdAt" : 1690924944,
+      "description" : "This dataset contains FIPS (Federal Information Processing Standard), GNIS (Geographic Name Information System common) codes for identifying Washington state counties. This is an official list from OFM (Office of Financial Management).",
+      "diciBackend" : false,
+      "displayType" : "table",
+      "downloadCount" : 1249,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "licenseId" : "PDDL",
+      "locked" : false,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 39835463,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1690932481,
+      "publicationGroup" : 19242482,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1690932476,
+      "tableId" : 19242482,
+      "totalTimesRated" : 0,
+      "viewCount" : 3446,
+      "viewLastModified" : 1695154729,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1690932482,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 5672024,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1690932482,
+        "targetAudience" : "public",
+        "workflowId" : 2106,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "endedAt" : 1690932482,
+          "failureCount" : 0,
+          "startedAt" : 1690932482,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "w3ya-j23t",
+          "displayName" : "Kenneth Adams"
+        }
+      } ],
+      "clientContext" : {
+        "clientContextVariables" : [ ],
+        "inheritedVariables" : { }
+      },
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 579047459,
+        "name" : "COUNTY NAME",
+        "dataTypeName" : "text",
+        "description" : "Name of the County",
+        "fieldName" : "county_name",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 147756981,
+        "cachedContents" : {
+          "non_null" : "39",
+          "largest" : "Yakima",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Asotin",
+            "count" : "1"
+          }, {
+            "item" : "Jefferson",
+            "count" : "1"
+          }, {
+            "item" : "Klickitat",
+            "count" : "1"
+          }, {
+            "item" : "Grant",
+            "count" : "1"
+          }, {
+            "item" : "Lincoln",
+            "count" : "1"
+          }, {
+            "item" : "Cowlitz",
+            "count" : "1"
+          }, {
+            "item" : "Wahkiakum",
+            "count" : "1"
+          }, {
+            "item" : "Okanogan",
+            "count" : "1"
+          }, {
+            "item" : "Grays Harbor",
+            "count" : "1"
+          }, {
+            "item" : "Pierce",
+            "count" : "1"
+          }, {
+            "item" : "Spokane",
+            "count" : "1"
+          }, {
+            "item" : "Kittitas",
+            "count" : "1"
+          }, {
+            "item" : "Columbia",
+            "count" : "1"
+          }, {
+            "item" : "Walla Walla",
+            "count" : "1"
+          }, {
+            "item" : "Skamania",
+            "count" : "1"
+          }, {
+            "item" : "Franklin",
+            "count" : "1"
+          }, {
+            "item" : "Ferry",
+            "count" : "1"
+          }, {
+            "item" : "Whitman",
+            "count" : "1"
+          }, {
+            "item" : "Clark",
+            "count" : "1"
+          }, {
+            "item" : "Kitsap",
+            "count" : "1"
+          } ],
+          "smallest" : "Adams",
+          "count" : "39",
+          "cardinality" : "39"
+        },
+        "format" : { }
+      }, {
+        "id" : 579047458,
+        "name" : "COUNTY FIPS CODE",
+        "dataTypeName" : "text",
+        "description" : "Federal Information Processing Standard code for WA State Counties",
+        "fieldName" : "county_fips_code",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 147756980,
+        "cachedContents" : {
+          "non_null" : "39",
+          "largest" : "077",
+          "null" : "0",
+          "top" : [ {
+            "item" : "013",
+            "count" : "1"
+          }, {
+            "item" : "067",
+            "count" : "1"
+          }, {
+            "item" : "059",
+            "count" : "1"
+          }, {
+            "item" : "015",
+            "count" : "1"
+          }, {
+            "item" : "069",
+            "count" : "1"
+          }, {
+            "item" : "065",
+            "count" : "1"
+          }, {
+            "item" : "001",
+            "count" : "1"
+          }, {
+            "item" : "017",
+            "count" : "1"
+          }, {
+            "item" : "063",
+            "count" : "1"
+          }, {
+            "item" : "039",
+            "count" : "1"
+          }, {
+            "item" : "009",
+            "count" : "1"
+          }, {
+            "item" : "027",
+            "count" : "1"
+          }, {
+            "item" : "011",
+            "count" : "1"
+          }, {
+            "item" : "075",
+            "count" : "1"
+          }, {
+            "item" : "033",
+            "count" : "1"
+          }, {
+            "item" : "019",
+            "count" : "1"
+          }, {
+            "item" : "071",
+            "count" : "1"
+          }, {
+            "item" : "021",
+            "count" : "1"
+          }, {
+            "item" : "061",
+            "count" : "1"
+          }, {
+            "item" : "055",
+            "count" : "1"
+          } ],
+          "smallest" : "001",
+          "count" : "39",
+          "cardinality" : "39"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 579047457,
+        "name" : "STATE COUNTY FIPS CODE",
+        "dataTypeName" : "text",
+        "description" : "Federal Information Processing Standard code for WA State Counties along with the state FIPS code.",
+        "fieldName" : "state_county_fips_code",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 147756979,
+        "cachedContents" : {
+          "non_null" : "39",
+          "largest" : "53077",
+          "null" : "0",
+          "top" : [ {
+            "item" : "53011",
+            "count" : "1"
+          }, {
+            "item" : "53069",
+            "count" : "1"
+          }, {
+            "item" : "53071",
+            "count" : "1"
+          }, {
+            "item" : "53009",
+            "count" : "1"
+          }, {
+            "item" : "53007",
+            "count" : "1"
+          }, {
+            "item" : "53059",
+            "count" : "1"
+          }, {
+            "item" : "53049",
+            "count" : "1"
+          }, {
+            "item" : "53041",
+            "count" : "1"
+          }, {
+            "item" : "53033",
+            "count" : "1"
+          }, {
+            "item" : "53025",
+            "count" : "1"
+          }, {
+            "item" : "53063",
+            "count" : "1"
+          }, {
+            "item" : "53077",
+            "count" : "1"
+          }, {
+            "item" : "53029",
+            "count" : "1"
+          }, {
+            "item" : "53047",
+            "count" : "1"
+          }, {
+            "item" : "53067",
+            "count" : "1"
+          }, {
+            "item" : "53061",
+            "count" : "1"
+          }, {
+            "item" : "53053",
+            "count" : "1"
+          }, {
+            "item" : "53035",
+            "count" : "1"
+          }, {
+            "item" : "53013",
+            "count" : "1"
+          }, {
+            "item" : "53057",
+            "count" : "1"
+          } ],
+          "smallest" : "53001",
+          "count" : "39",
+          "cardinality" : "39"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 579047456,
+        "name" : "COUNTY ORDER NUMBER",
+        "dataTypeName" : "text",
+        "description" : "Numeric code for Washington counties based on alphabetical order ",
+        "fieldName" : "county_order_number",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 147756978,
+        "cachedContents" : {
+          "non_null" : "39",
+          "largest" : "9",
+          "null" : "0",
+          "top" : [ {
+            "item" : "8",
+            "count" : "1"
+          }, {
+            "item" : "12",
+            "count" : "1"
+          }, {
+            "item" : "10",
+            "count" : "1"
+          }, {
+            "item" : "7",
+            "count" : "1"
+          }, {
+            "item" : "13",
+            "count" : "1"
+          }, {
+            "item" : "28",
+            "count" : "1"
+          }, {
+            "item" : "15",
+            "count" : "1"
+          }, {
+            "item" : "5",
+            "count" : "1"
+          }, {
+            "item" : "39",
+            "count" : "1"
+          }, {
+            "item" : "19",
+            "count" : "1"
+          }, {
+            "item" : "23",
+            "count" : "1"
+          }, {
+            "item" : "20",
+            "count" : "1"
+          }, {
+            "item" : "25",
+            "count" : "1"
+          }, {
+            "item" : "14",
+            "count" : "1"
+          }, {
+            "item" : "34",
+            "count" : "1"
+          }, {
+            "item" : "6",
+            "count" : "1"
+          }, {
+            "item" : "18",
+            "count" : "1"
+          }, {
+            "item" : "38",
+            "count" : "1"
+          }, {
+            "item" : "32",
+            "count" : "1"
+          }, {
+            "item" : "2",
+            "count" : "1"
+          } ],
+          "smallest" : "1",
+          "count" : "39",
+          "cardinality" : "39"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 579047455,
+        "name" : "GNIS CODE",
+        "dataTypeName" : "text",
+        "description" : "Geographic Name Information System codes for WA State Counties  (Note: GNIS codes are maintained by the U.S. Geological Survey http://geonames.usgs.gov/domestic/download_data.htm) ",
+        "fieldName" : "gnis_code",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 147756977,
+        "cachedContents" : {
+          "non_null" : "39",
+          "largest" : "1533502",
+          "null" : "0",
+          "top" : [ {
+            "item" : "1513272",
+            "count" : "1"
+          }, {
+            "item" : "1529159",
+            "count" : "1"
+          }, {
+            "item" : "1529221",
+            "count" : "1"
+          }, {
+            "item" : "1531820",
+            "count" : "1"
+          }, {
+            "item" : "1529156",
+            "count" : "1"
+          }, {
+            "item" : "1533502",
+            "count" : "1"
+          }, {
+            "item" : "1513273",
+            "count" : "1"
+          }, {
+            "item" : "1529224",
+            "count" : "1"
+          }, {
+            "item" : "1531402",
+            "count" : "1"
+          }, {
+            "item" : "1531928",
+            "count" : "1"
+          }, {
+            "item" : "1531930",
+            "count" : "1"
+          }, {
+            "item" : "1529226",
+            "count" : "1"
+          }, {
+            "item" : "1529157",
+            "count" : "1"
+          }, {
+            "item" : "1529220",
+            "count" : "1"
+          }, {
+            "item" : "1531927",
+            "count" : "1"
+          }, {
+            "item" : "1531819",
+            "count" : "1"
+          }, {
+            "item" : "1531926",
+            "count" : "1"
+          }, {
+            "item" : "1531822",
+            "count" : "1"
+          }, {
+            "item" : "1533501",
+            "count" : "1"
+          }, {
+            "item" : "1533500",
+            "count" : "1"
+          } ],
+          "smallest" : "1513272",
+          "count" : "39",
+          "cardinality" : "39"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 579047454,
+        "name" : "GNIS TIGER FORMAT CODE",
+        "dataTypeName" : "text",
+        "description" : "Geographic ID for TIGER/LINE shapefiles",
+        "fieldName" : "gnis_tiger_format_code",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 147756976,
+        "cachedContents" : {
+          "non_null" : "39",
+          "largest" : "01533502",
+          "null" : "0",
+          "top" : [ {
+            "item" : "01529220",
+            "count" : "1"
+          }, {
+            "item" : "01531924",
+            "count" : "1"
+          }, {
+            "item" : "01529157",
+            "count" : "1"
+          }, {
+            "item" : "01533502",
+            "count" : "1"
+          }, {
+            "item" : "01529225",
+            "count" : "1"
+          }, {
+            "item" : "01529219",
+            "count" : "1"
+          }, {
+            "item" : "01529222",
+            "count" : "1"
+          }, {
+            "item" : "01531341",
+            "count" : "1"
+          }, {
+            "item" : "01531820",
+            "count" : "1"
+          }, {
+            "item" : "01531933",
+            "count" : "1"
+          }, {
+            "item" : "01531926",
+            "count" : "1"
+          }, {
+            "item" : "01531936",
+            "count" : "1"
+          }, {
+            "item" : "01531818",
+            "count" : "1"
+          }, {
+            "item" : "01514052",
+            "count" : "1"
+          }, {
+            "item" : "01533501",
+            "count" : "1"
+          }, {
+            "item" : "01531822",
+            "count" : "1"
+          }, {
+            "item" : "01531402",
+            "count" : "1"
+          }, {
+            "item" : "01531931",
+            "count" : "1"
+          }, {
+            "item" : "01531932",
+            "count" : "1"
+          }, {
+            "item" : "01531819",
+            "count" : "1"
+          } ],
+          "smallest" : "01513272",
+          "count" : "39",
+          "cardinality" : "39"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 579047453,
+        "name" : "GEOID_TIGER CODE",
+        "dataTypeName" : "text",
+        "description" : "Geographic ID for TIGER/LINE shapefiles",
+        "fieldName" : "geoid_tiger_code",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 147756975,
+        "cachedContents" : {
+          "non_null" : "39",
+          "largest" : "53077",
+          "null" : "0",
+          "top" : [ {
+            "item" : "53011",
+            "count" : "1"
+          }, {
+            "item" : "53069",
+            "count" : "1"
+          }, {
+            "item" : "53071",
+            "count" : "1"
+          }, {
+            "item" : "53009",
+            "count" : "1"
+          }, {
+            "item" : "53007",
+            "count" : "1"
+          }, {
+            "item" : "53059",
+            "count" : "1"
+          }, {
+            "item" : "53049",
+            "count" : "1"
+          }, {
+            "item" : "53041",
+            "count" : "1"
+          }, {
+            "item" : "53033",
+            "count" : "1"
+          }, {
+            "item" : "53025",
+            "count" : "1"
+          }, {
+            "item" : "53063",
+            "count" : "1"
+          }, {
+            "item" : "53077",
+            "count" : "1"
+          }, {
+            "item" : "53029",
+            "count" : "1"
+          }, {
+            "item" : "53047",
+            "count" : "1"
+          }, {
+            "item" : "53067",
+            "count" : "1"
+          }, {
+            "item" : "53061",
+            "count" : "1"
+          }, {
+            "item" : "53053",
+            "count" : "1"
+          }, {
+            "item" : "53035",
+            "count" : "1"
+          }, {
+            "item" : "53013",
+            "count" : "1"
+          }, {
+            "item" : "53057",
+            "count" : "1"
+          } ],
+          "smallest" : "53001",
+          "count" : "39",
+          "cardinality" : "39"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 579047452,
+        "name" : "GEOID_AFF CODE",
+        "dataTypeName" : "text",
+        "description" : "Geographic ID for American FactFinder",
+        "fieldName" : "geoid_aff_code",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 147756974,
+        "cachedContents" : {
+          "non_null" : "39",
+          "largest" : "0500000US53077",
+          "null" : "0",
+          "top" : [ {
+            "item" : "0500000US53073",
+            "count" : "1"
+          }, {
+            "item" : "0500000US53065",
+            "count" : "1"
+          }, {
+            "item" : "0500000US53007",
+            "count" : "1"
+          }, {
+            "item" : "0500000US53047",
+            "count" : "1"
+          }, {
+            "item" : "0500000US53015",
+            "count" : "1"
+          }, {
+            "item" : "0500000US53003",
+            "count" : "1"
+          }, {
+            "item" : "0500000US53069",
+            "count" : "1"
+          }, {
+            "item" : "0500000US53041",
+            "count" : "1"
+          }, {
+            "item" : "0500000US53019",
+            "count" : "1"
+          }, {
+            "item" : "0500000US53051",
+            "count" : "1"
+          }, {
+            "item" : "0500000US53035",
+            "count" : "1"
+          }, {
+            "item" : "0500000US53045",
+            "count" : "1"
+          }, {
+            "item" : "0500000US53011",
+            "count" : "1"
+          }, {
+            "item" : "0500000US53023",
+            "count" : "1"
+          }, {
+            "item" : "0500000US53075",
+            "count" : "1"
+          }, {
+            "item" : "0500000US53061",
+            "count" : "1"
+          }, {
+            "item" : "0500000US53049",
+            "count" : "1"
+          }, {
+            "item" : "0500000US53017",
+            "count" : "1"
+          }, {
+            "item" : "0500000US53055",
+            "count" : "1"
+          }, {
+            "item" : "0500000US53077",
+            "count" : "1"
+          } ],
+          "smallest" : "0500000US53001",
+          "count" : "39",
+          "cardinality" : "39"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Open Data Commons Public Domain Dedication and License",
+        "termsLink" : "http://opendatacommons.org/licenses/pddl/1.0/"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Temporal" : {
+            "Posting Frequency" : "Annual",
+            "Period of Time" : "Current"
+          }
+        },
+        "rowLabel" : "County",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "w3ya-j23t",
+        "displayName" : "Kenneth Adams",
+        "profileImageUrlLarge" : "/api/users/w3ya-j23t/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/w3ya-j23t/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/w3ya-j23t/profile_images/TINY",
+        "screenName" : "Kenneth Adams",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "w3ya-j23t",
+        "displayName" : "Kenneth Adams",
+        "profileImageUrlLarge" : "/api/users/w3ya-j23t/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/w3ya-j23t/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/w3ya-j23t/profile_images/TINY",
+        "screenName" : "Kenneth Adams",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "tags" : [ "county", "washington", "washington state (wa)" ],
+      "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-kiyc.wxfj~ary2", "00000000-0000-0000-D4DC-C68069DABDB2", 0, 1690932476, null, 1690932476, null, "{ }", "Adams", "001", "53001", "1", "1531601", "01531601", "53001", "0500000US53001" ]
+, [ "row-kphd.6agw_8cxh", "00000000-0000-0000-3DC5-CD711F4020AD", 0, 1690932476, null, 1690932476, null, "{ }", "Asotin", "003", "53003", "2", "1533502", "01533502", "53003", "0500000US53003" ]
+, [ "row-bjug-crhv~c5n6", "00000000-0000-0000-9AD4-45A92CFC6E2C", 0, 1690932476, null, 1690932476, null, "{ }", "Benton", "005", "53005", "3", "1513302", "01513302", "53005", "0500000US53005" ]
+, [ "row-3pf8.hkrb-e5wd", "00000000-0000-0000-478B-44EA653F9338", 0, 1690932476, null, 1690932476, null, "{ }", "Chelan", "007", "53007", "4", "1531932", "01531932", "53007", "0500000US53007" ]
+, [ "row-zaei~uk3w.jsce", "00000000-0000-0000-1DCD-8E20A383F42F", 0, 1690932476, null, 1690932476, null, "{ }", "Clallam", "009", "53009", "5", "1531341", "01531341", "53009", "0500000US53009" ]
+, [ "row-kcww_rx5v.8q3u", "00000000-0000-0000-AD60-120215BEAF14", 0, 1690932476, null, 1690932476, null, "{ }", "Clark", "011", "53011", "6", "1531820", "01531820", "53011", "0500000US53011" ]
+, [ "row-pf7w-dbcn_r5ve", "00000000-0000-0000-18B3-9A46F04E0268", 0, 1690932476, null, 1690932476, null, "{ }", "Columbia", "013", "53013", "7", "1513273", "01513273", "53013", "0500000US53013" ]
+, [ "row-cq7a_7m2u.fnwx", "00000000-0000-0000-DD70-CAFBCCD64A66", 0, 1690932476, null, 1690932476, null, "{ }", "Cowlitz", "015", "53015", "8", "1529156", "01529156", "53015", "0500000US53015" ]
+, [ "row-684r~gjss.sihz", "00000000-0000-0000-49A8-1A0068EC85B1", 0, 1690932476, null, 1690932476, null, "{ }", "Douglas", "017", "53017", "9", "1531818", "01531818", "53017", "0500000US53017" ]
+, [ "row-jjh5~h9gy_khhw", "00000000-0000-0000-A485-5EE4BDF6EBE3", 0, 1690932476, null, 1690932476, null, "{ }", "Ferry", "019", "53019", "10", "1531821", "01531821", "53019", "0500000US53019" ]
+, [ "row-unqg.hh3p-tntc", "00000000-0000-0000-9D98-F24391836EA7", 0, 1690932476, null, 1690932476, null, "{ }", "Franklin", "021", "53021", "11", "1531822", "01531822", "53021", "0500000US53021" ]
+, [ "row-23z6-qmn8-iz82", "00000000-0000-0000-1BA9-129BBE98E2C8", 0, 1690932476, null, 1690932476, null, "{ }", "Garfield", "023", "53023", "12", "1533500", "01533500", "53023", "0500000US53023" ]
+, [ "row-y84j.637z.irww", "00000000-0000-0000-B859-F59E09A7CEC0", 0, 1690932476, null, 1690932476, null, "{ }", "Grant", "025", "53025", "13", "1531924", "01531924", "53025", "0500000US53025" ]
+, [ "row-fbnc-wqdn~p5eg", "00000000-0000-0000-01AC-FF16CAB98CFE", 0, 1690932476, null, 1690932476, null, "{ }", "Grays Harbor", "027", "53027", "14", "1531823", "01531823", "53027", "0500000US53027" ]
+, [ "row-qb4b~fexg_uh3z", "00000000-0000-0000-10BE-CF28BC3BE9B3", 0, 1690932476, null, 1690932476, null, "{ }", "Island", "029", "53029", "15", "1513272", "01513272", "53029", "0500000US53029" ]
+, [ "row-ujrp~kmbu_2gzt", "00000000-0000-0000-217E-2B8553E6DC99", 0, 1690932476, null, 1690932476, null, "{ }", "Jefferson", "031", "53031", "16", "1531936", "01531936", "53031", "0500000US53031" ]
+, [ "row-ar2x-iied.dgub", "00000000-0000-0000-045F-0D762F4EA0BE", 0, 1690932476, null, 1690932476, null, "{ }", "King", "033", "53033", "17", "1531933", "01531933", "53033", "0500000US53033" ]
+, [ "row-q9jy.psvz~gzvq", "00000000-0000-0000-1EAC-8D361715D60D", 0, 1690932476, null, 1690932476, null, "{ }", "Kitsap", "035", "53035", "18", "1529223", "01529223", "53035", "0500000US53035" ]
+, [ "row-2bdt-mw76~vwxu", "00000000-0000-0000-95FE-BD1F9FD16540", 0, 1690932476, null, 1690932476, null, "{ }", "Kittitas", "037", "53037", "19", "1531926", "01531926", "53037", "0500000US53037" ]
+, [ "row-fbaj-amce-br5c", "00000000-0000-0000-8073-C3D9D5EF0773", 0, 1690932476, null, 1690932476, null, "{ }", "Klickitat", "039", "53039", "20", "1529219", "01529219", "53039", "0500000US53039" ]
+, [ "row-k28q-7c6p_52xu", "00000000-0000-0000-E1C1-DD5134F3888F", 0, 1690932476, null, 1690932476, null, "{ }", "Lewis", "041", "53041", "21", "1531927", "01531927", "53041", "0500000US53041" ]
+, [ "row-3fq9~fnbm-z6uy", "00000000-0000-0000-C1CF-F8A1D4BDB945", 0, 1690932476, null, 1690932476, null, "{ }", "Lincoln", "043", "53043", "22", "1514052", "01514052", "53043", "0500000US53043" ]
+, [ "row-2g5m_yiz3-sfca", "00000000-0000-0000-1B3E-46492309EAEE", 0, 1690932476, null, 1690932476, null, "{ }", "Mason", "045", "53045", "23", "1529221", "01529221", "53045", "0500000US53045" ]
+, [ "row-3xag~jw7r.ngd9", "00000000-0000-0000-7B49-185DD3139113", 0, 1690932476, null, 1690932476, null, "{ }", "Okanogan", "047", "53047", "24", "1531928", "01531928", "53047", "0500000US53047" ]
+, [ "row-myrq~j8wd~qg32", "00000000-0000-0000-5C71-A5E28E32E07A", 0, 1690932476, null, 1690932476, null, "{ }", "Pacific", "049", "53049", "25", "1513274", "01513274", "53049", "0500000US53049" ]
+, [ "row-d688-stzm.q83f", "00000000-0000-0000-D9A5-CAB3FC3AB2B9", 0, 1690932476, null, 1690932476, null, "{ }", "Pend Oreille", "051", "53051", "26", "1529157", "01529157", "53051", "0500000US53051" ]
+, [ "row-facf.dqnx_g3u5", "00000000-0000-0000-A65C-6EE2E1D7C533", 0, 1690932476, null, 1690932476, null, "{ }", "Pierce", "053", "53053", "27", "1529159", "01529159", "53053", "0500000US53053" ]
+, [ "row-r6nv_jafv~dd37", "00000000-0000-0000-A0A0-D06C090EE887", 0, 1690932476, null, 1690932476, null, "{ }", "San Juan", "055", "53055", "28", "1531931", "01531931", "53055", "0500000US53055" ]
+, [ "row-prft.ctnt.9tmu", "00000000-0000-0000-BDA1-457DDB2F0AC5", 0, 1690932476, null, 1690932476, null, "{ }", "Skagit", "057", "53057", "29", "1531402", "01531402", "53057", "0500000US53057" ]
+, [ "row-eps4.kf89-hxrm", "00000000-0000-0000-574D-B169837DD7FA", 0, 1690932476, null, 1690932476, null, "{ }", "Skamania", "059", "53059", "30", "1529220", "01529220", "53059", "0500000US53059" ]
+, [ "row-g3ii.wznr~37nu", "00000000-0000-0000-0E36-ACE7DDC70EAF", 0, 1690932476, null, 1690932476, null, "{ }", "Snohomish", "061", "53061", "31", "1529222", "01529222", "53061", "0500000US53061" ]
+, [ "row-bqzf_idy7-jj7h", "00000000-0000-0000-8558-6C0BA58F2A0B", 0, 1690932476, null, 1690932476, null, "{ }", "Spokane", "063", "53063", "32", "1529225", "01529225", "53063", "0500000US53063" ]
+, [ "row-6hmf_hbz6~hwr8", "00000000-0000-0000-4E97-3D679D9E69E4", 0, 1690932476, null, 1690932476, null, "{ }", "Stevens", "065", "53065", "33", "1531930", "01531930", "53065", "0500000US53065" ]
+, [ "row-879j-hzkv.taa9", "00000000-0000-0000-B407-FF684198612A", 0, 1690932476, null, 1690932476, null, "{ }", "Thurston", "067", "53067", "34", "1529226", "01529226", "53067", "0500000US53067" ]
+, [ "row-nzxh-3jfh_xsxp", "00000000-0000-0000-B733-20066108EBFD", 0, 1690932476, null, 1690932476, null, "{ }", "Wahkiakum", "069", "53069", "35", "1513275", "01513275", "53069", "0500000US53069" ]
+, [ "row-tacy_rvqe_tt8q", "00000000-0000-0000-250F-5B9D7EB803B9", 0, 1690932476, null, 1690932476, null, "{ }", "Walla Walla", "071", "53071", "36", "1531819", "01531819", "53071", "0500000US53071" ]
+, [ "row-fz3c-44um~9my3", "00000000-0000-0000-707A-7A9220578103", 0, 1690932476, null, 1690932476, null, "{ }", "Whatcom", "073", "53073", "37", "1529224", "01529224", "53073", "0500000US53073" ]
+, [ "row-nj5f-dt39-hkqi", "00000000-0000-0000-ABDD-697EAD1FFA41", 0, 1690932476, null, 1690932476, null, "{ }", "Whitman", "075", "53075", "38", "1533501", "01533501", "53075", "0500000US53075" ]
+, [ "row-j8u3-jjyk_ivvh", "00000000-0000-0000-3076-578FE2C50489", 0, 1690932476, null, 1690932476, null, "{ }", "Yakima", "077", "53077", "39", "1531929", "01531929", "53077", "0500000US53077" ]
+ ]
+}

@@ -124,6 +124,7 @@ Download the entire project and then execute it in the root directory.
 
 ### Running
 ```bash
+npm install
 npm run dev
 ```
 

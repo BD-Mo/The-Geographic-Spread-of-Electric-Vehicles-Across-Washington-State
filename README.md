@@ -119,31 +119,8 @@ rates, which is supported by existing literature.
 - Node.js ≥ 18
 - npm or yarn
 
-### Installation
-```bash
-git clone https://github.com/YOUR_USERNAME/ecs272-ev-washington.git
-cd ecs272-ev-washington
-npm install
-```
-
-### Data Files
-Place the following files in the `/data` and `/geo` directories 
-(not included in this repository due to file size):
-```
-data/
-├── Electric_Vehicle_Population_Data_20260224.csv
-└── alt_fuel_stations (Feb 24 2026).csv
-
-geo/
-├── us-states.json
-└── wa-counties-simple.geojson
-```
-
-- EV data: [WA DOL via Data.gov](https://data.wa.gov/Transportation/Electric-Vehicle-Population-Data/f6w7-q2d2)
-- Charging stations: [NREL AFDC](https://afdc.energy.gov/fuels/electricity_locations.html)
-- State boundaries: [US Atlas / Natural Earth](https://github.com/topojson/us-atlas)
-- County boundaries: Simplified from WA State GIS using 
-  Ramer-Douglas-Peucker (tolerance 0.004°)
+### Installation and Running
+Download the entire project and then execute it in the root directory.
 
 ### Running
 ```bash
